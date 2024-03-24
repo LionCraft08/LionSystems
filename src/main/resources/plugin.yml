@@ -1,0 +1,27 @@
+name: LionSystems
+version: '${project.version}'
+main: me.yourname.lionsystems.LionSystems
+api-version: '1.20'
+commands:
+  lionsystems:
+    description: The main power of Lion-Systems! Manage everything!
+    aliases: ls
+    usage: /<command>
+    permission: op
+  timer:
+    description: Manage and start the timer
+    permission: op
+  inv:
+    description: View a Player's Inventory!
+    permission: op
+    aliases:
+      - inventory
+    usage: /inv <Player>
+  ping:
+    description: Gets the Ping of a player.
+    usage: /ping [Player]
+
+permissions:
+  see-broadcasts:
+    description: If a Player can receive Broadcasts (All sorts of Messages for every Player)
+    default: true

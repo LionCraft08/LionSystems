@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="lionsystems:jar">
+    <output-path>$USER_HOME$/Documents/MC/Serverdaten/plugins/eigene plugins</output-path>
+    <root id="archive" name="lionsystems.jar">
+      <element id="module-output" name="lionsystems" />
+    </root>
+  </artifact>
+</component>

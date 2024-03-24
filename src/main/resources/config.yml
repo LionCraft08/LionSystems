@@ -1,0 +1,30 @@
+# ?playername? gets the targeted player
+# You can use default color codes like &e(yellow)
+
+
+messages:
+  joinmessage: ?playername? joined the game!
+  firstjoinmessage: ?playername? joined the game! Welcome!
+  quitmessage: ?playername? left the game!
+
+
+# Do not change default prefix, may cause problems.
+default_prefix: <&l&9Lion&5Systems&r>
+
+settings:
+  show-damage-in-chat: true
+  console-sees-broadcasts: false
+  players-can-move: true
+  players-can-fly: false
+
+#Can be changed ingame, might cause bugs when changing while Server is running.
+timer:
+  config:
+    runonlywhenplayeronline: true
+    #If players will be switched to spectator
+    endofchallenge: false
+  public:
+    days: 0
+    hours: 0
+    minutes: 0
+    seconds: 0
